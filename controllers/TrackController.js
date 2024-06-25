@@ -3,7 +3,8 @@ const Track = require('../models/Track')
 // Get All Tracks
 const GetTrack = async (req, res) => {
   try {
-    const tracks = await Track.find({user_id: req.user.id});
+    // const tracks = await Track.find({user_id: req.user.id});
+    const tracks = await Track.find();
     res.json(tracks);
   } catch (err) {
     res.status(500).json({ message: err.message });
