@@ -46,7 +46,7 @@ cd sandmusic-backend
 npm init -y
 
 
-<img src="./assets/images/data.png" alt="Sandmusic Data" width="300" height="800">
+<img src="./assets/images/data.png" alt="Sandmusic Data" width="700" height="800">
 
 
 Install Dependencies:
@@ -64,7 +64,7 @@ PORT=5000
 
 
 
-<img src="./assets/images/JsonwebToken.png" alt="Json" width="300" height="800">
+<img src="./assets/images/JsonwebToken.png" alt="Json" width="700" height="800">
 
 Core Functionalities
 
@@ -82,7 +82,7 @@ The validateTokenHandler.js middleware ensures secure access to protected routes
 Secure API Routes
 The userRoutes.js and trackRoutes.js define routes for user-related and track-related operations. Protected routes use the token validation middleware.
 
-<img src="./assets/images/postData.png" alt="Sandmusic Post Request" width="300" height="800">
+<img src="./assets/images/postData.png" alt="Sandmusic Post Request" width="700" height="800">
 
 Example Usage
 User Registration: Send a POST request to /api/users/register with displayName, email, password, and profileImage.
